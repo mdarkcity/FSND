@@ -1,0 +1,8 @@
+# venv
+env/
+
+# node dependencies
+node_modules/
+
+# project submission
+*.zip
