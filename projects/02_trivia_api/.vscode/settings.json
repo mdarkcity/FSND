@@ -1,6 +1,0 @@
-{
-    "python.venvPath": "~/Documents/FSND/projects/02_trivia_api/backend",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.pycodestyleEnabled": true
-}
