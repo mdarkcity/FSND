@@ -36,14 +36,14 @@ The app is currently hosted on Heroku and can be accessed via this link: https:/
 
 The following requests have limited access based on user roles. The relevant roles are Casting Assistant, Casting Director, and Executive Producer. Generally, an Executive Producer has permission to make any request, while a Casting Director can not add or delete movies. A Casting Assistant **only** has permission to view actors and movies.
 
-[`GET /movies`](#GET-/movies)\
-[`GET /actors`](#GET-/actors)\
-[`POST /movies`](#POST-/movies)\
-[`POST /actors`](#POST-/actors)\
-[`PATCH /movies/<movie_id>`](#PATCH-/movies/<movie_id>)\
-[`PATCH /actors/<actor_id>`](#PATCH-/actors/<actor_id>)\
-[`DELETE /movies/<movie_id>`](#DELETE-/movies/<movie_id>)\
-[`DELETE /actors/<actor_id>`](#DELETE-/actors/<actor_id>)
+[`GET /movies`](#get-movies)\
+[`GET /actors`](#get-actors)\
+[`POST /movies`](#post-movies)\
+[`POST /actors`](#post-actors)\
+[`PATCH /movies/<movie_id>`](#patch-moviesmovie_id)\
+[`PATCH /actors/<actor_id>`](#patch-actorsactor_id)\
+[`DELETE /movies/<movie_id>`](#delete-moviesmovie_id)\
+[`DELETE /actors/<actor_id>`](#delete-actorsactor_id)
 
 ### GET /movies
 - View details about all movies
